@@ -259,16 +259,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 email: "*Please enter a valid Email address",
                 username: {
                     required: "*Please enter a Username",
-                    minlength: "*Your username must consist of at least 6 characters"
+                    minlength: "*Your Uername must consist of at least 6 characters"
                 },
                 password: {
-                    required: "*Please provide a password",
-                    minlength: "*Your password must be at least 6 characters long"
+                    required: "*Please provide a Password",
+                    minlength: "*Your Password must be at least 6 characters long"
                 },
                 confirm_password: {
-                    required: "*Please provide a confirmpassword",
-                    minlength: "*Your password must be at least 6 characters long",
-                    equalTo: "*Please enter the same password as above"
+                    required: "*Please provide a Confirmpassword",
+                    minlength: "*Your Password must be at least 6 characters long",
+                    equalTo: "*Please enter the same Password as above"
                 },
                 terms: "*Please accept our policy",
             },
